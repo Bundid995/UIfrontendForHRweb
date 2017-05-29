@@ -1,0 +1,45 @@
+$sidebar-color:#34495E;
+
+
+.sticky-left-side {
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 100;
+    background: $sidebar-color;
+    width: 250px;
+}
+
+.left-side {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    // padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}

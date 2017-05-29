@@ -1,0 +1,13 @@
+#main_footer {
+    border-top: 1px solid #e2e5e8;
+    background: white;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#main_footer, #page-wrapper:after {
+    height: 50px;
+}
