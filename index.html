@@ -3,76 +3,109 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Simple Sidebar - Start Bootstrap Template</title>
+  <title>Simple Sidebar - Start Bootstrap Template</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+  <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="./assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Custom CSS -->
+  <link href="./assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<body>
 
+<div id="wrapper">
+  <div class="clearfix">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav" style="margin-left:0;">
+        <li class="sidebar-brand">
 
+          <a href="#menu-toggle" id="menu-toggle" style="margin-top:20px;float:right;"> <i class="fa fa-bars " style="font-size:20px !Important;" aria-hidden="true" aria-hidden="true"></i>
 
-  <div id="wrapper">
-    <div class="clearfix">
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-sort-alpha-asc " aria-hidden="true"> </i> <span style="margin-left:10px;">Section</span>  </a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa fa-play-circle-o " aria-hidden="true"> </i> <span style="margin-left:10px;"> Section</span> </a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa fa-puzzle-piece" aria-hidden="true"> </i> <span style="margin-left:10px;"> Section</span> </a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa fa-font" aria-hidden="true"> </i> <span style="margin-left:10px;"> Section</span> </a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-info-circle " aria-hidden="true"> </i> <span style="margin-left:10px;">Section </span> </a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa fa-comment-o" aria-hidden="true"> </i> <span style="margin-left:10px;"> Section</span> </a>
+        </li>
+      </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
 
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-          <div class="sticky-left-side">
-
-          </div>
-
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+          <a class="navbar-brand" href="#menu-toggle" id="menu-toggle"><span class="fa fa-align-justify" aria-hidden="true"></span></a>
         </div>
-        <!-- /#sidebar-wrapper -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="fa fa-home"></span> Home</a></li>
+            <li><a href="#"><span class="fa fa-comment-o" aria-hidden="true"></span> Messages </a></li>
+            <li><a href="#"><span class="fa fa-question-circle" aria-hidden="true"></span> Help</a></li>
+            <li><a href="#"><span class="fa fa-sign-out" aria-hidden="true"></span> Log Out</a></li>
+          </ul>
+        </div>
+      </nav>
 
-        <!-- Content -->
-        <div id="main-content">
-          <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div id="page-wrapper" style="min-height:880px">
+        <div class="col-lg-12">
           <div class="container-fluid">
-            <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#menu-toggle" id="menu-toggle"><span class="fa fa-align-justify" aria-hidden="true"></span></a>
+            <h1>Simple Sidebar</h1>
+            <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens,
+              the page content will be pushed off canvas.</p>
+            <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
           </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="fa fa-home" aria-hidden="true"></span> Home</a></li>
-          <li><a href="#"><span class="fa fa-comment-o" aria-hidden="true"></span> Messages </a></li>
-              <li><a href="#"><span class="fa fa-question-circle" aria-hidden="true"></span> Help</a></li>
-                <li><a href="#"><span class="fa fa-sign-out" aria-hidden="true"></span> Log Out</a></li>
-            </ul>
-
-          </div>
-          </div>
-          </nav>
         </div>
-        <!-- /#Content -->
+      </div>
+
+      <footer id="main_footer">
+        <p class="text-muted small"><strong>Sumea Theme </strong> Designed and Created by <a href="http://www.webkom.co">www.webkom.co</a> <span class="text-muted pull-right">© 2009 - 2015. Made by <i class="fa fa-heart text-danger"></i> Kielce, Poland.</span></p>
+      </footer>
     </div>
   </div>
-    <!-- /#wrapper -->
+</div>
 
-    <!-- jQuery -->
-    <script src="./assets/js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="./assets/js/bootstrap.min.js"></script>
+<!-- /#page-content-wrapper -->
 
-    <!-- Menu Toggle Script -->
-    <script src="./assets/js/custom.js"></script>
+
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="./assets/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="./assets/js/bootstrap.min.js"></script>
+
+<!-- Menu Toggle Script -->
+<script src="./assets/js/custom.js"></script>
 
 </body>
 
